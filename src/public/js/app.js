@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1500);
         
         // Código para la API real (comentado)
-        /*
+        
         fetch('/upload', {
             method: 'POST',
             body: formData
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
             showAlert(errorAlert, 'Error de conexión');
             console.error('Error:', error);
         });
-        */
+        
     });
     
     // Para "Subir primera imagen" en el estado vacío
